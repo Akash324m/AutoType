@@ -40,14 +40,17 @@ PyAutoGUI
 # How To run?
 
  Install dependencies:
+ 
     pip install flask pyautogui
 
 # 🖥 Server Setup
 
 Run the Python script on your PC:
+
     python app.py
 
 The server will run on:
+
     http://<your-pc-ip>:5000
 
 ---
@@ -63,4 +66,5 @@ The active window must be the editor where you want to type — PyAutoGUI sends 
 # Screenshots
 
  Mobile app:
+ 
 ![WhatsApp Image 2025-08-12 at 22 32 42_534499a0](https://github.com/user-attachments/assets/51da8edb-6ea7-49bd-b518-6cd65116a5c7)
