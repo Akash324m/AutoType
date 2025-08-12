@@ -1,6 +1,6 @@
 ## AutoType
 
-## 📲 MIT App → PC Auto Typing via Flask & PyAutoGUI
+# 📲 MIT App → PC Auto Typing via Flask & PyAutoGUI
 
 This project lets you send text or Python code from a MIT App Inventor mobile app directly to your PC, where it is automatically typed into any active text editor (VS Code, Thonny, etc.) — simulating human keystrokes.
 
@@ -14,7 +14,7 @@ Perfect for:
 
 ---
 
-## 🚀 How It Works
+# 🚀 How It Works
 MIT App Inventor sends a POST request with the text/code to the Flask server running on your PC.
 
 The Flask server:
@@ -27,7 +27,7 @@ You see your code appear instantly in your editor.
 
 ---
 
-## 📦 Requirements
+# 📦 Requirements
 
 Python 3.7+
 
@@ -37,33 +37,22 @@ PyAutoGUI
 
 ---
 
-## 📂 Project Structure
+# How To run?
 
-auto_code_typer/
-│
-├── app.py # Main Flask server
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
----
-
-## How To run?
-
-# Install dependencies:
-
-pip install flask pyautogui
+ Install dependencies:
+    pip install flask pyautogui
 
 # 🖥 Server Setup
 
 Run the Python script on your PC:
-  python app.py
+    python app.py
 
 The server will run on:
-  http://<your-pc-ip>:5000
+    http://<your-pc-ip>:5000
 
 ---
 
-## ⚠️ Notes
+# ⚠️ Notes
 
 This script removes indentation before typing, so your editor’s auto-indent handles formatting.
 
@@ -71,7 +60,7 @@ Works best with Python-friendly editors like VS Code, Thonny, or IDLE.
 
 The active window must be the editor where you want to type — PyAutoGUI sends keystrokes to whichever window is active.
 
-## Screenshots
+# Screenshots
 
-# Mobile app:
+ Mobile app:
 ![WhatsApp Image 2025-08-12 at 22 32 42_534499a0](https://github.com/user-attachments/assets/51da8edb-6ea7-49bd-b518-6cd65116a5c7)
